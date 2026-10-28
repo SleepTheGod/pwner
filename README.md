@@ -115,12 +115,12 @@ Existing LFI tools (`LFISuite`, `liffy`, `kadimus`) require Python 2/3, pip, and
 ## 🚀 Installation
 
 ```bash
-git clone https://github.com/<your-user>/readfile_pwn.git
-cd readfile_pwn
+git clone https://github.com/SleepTheGod/pwner/
+cd pwner
 chmod +x readfile_pwn.sh
 
 # Optional: symlink into PATH
-sudo ln -sf "$PWD/readfile_pwn.sh" /usr/local/bin/readfile_pwn
+sudo ln -sf "$PWD/readfile_pwn.sh" /usr/local/bin/pwner
 ```
 
 That's it. No `pip install`. No `composer`. No `npm`.
