@@ -2,6 +2,7 @@
 /**
  * Session Upload Progress Exploit Generator
  * made by Taylor Christian Newsome
+ * Usage: python3 rfi_exploit.py -l "http://<target-ip>/index.php?page=" -i "<localhost>" -c "whoami"
  */
 
 // Configuration (can be overridden via CLI arguments: php script.php <IP> <PORT>)
